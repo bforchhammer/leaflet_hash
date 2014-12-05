@@ -1,0 +1,6 @@
+{
+    "name": "leaflet_hash",
+    "dependencies": {
+        "leaflet-hash": "https://github.com/mlevans/leaflet-hash.git#master"
+    }
+}

@@ -1,0 +1,7 @@
+name: Leaflet Hash Plugin
+type: module
+description: Adds map position and zoom level to the browser url.
+core: 8.x
+package: Leaflet
+dependencies:
+  - leaflet

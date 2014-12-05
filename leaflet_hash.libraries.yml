@@ -1,0 +1,18 @@
+leaflet-hash:
+  remote: http://mlevans.github.io/leaflet-hash/
+  version: master
+  license:
+    name: MIT License
+    url: https://github.com/mlevans/leaflet-hash/blob/master/LICENSE.md
+    gpl-compatible: true
+  js:
+    /libraries/leaflet-hash/leaflet-hash.js
+  dependencies:
+    - leaflet/leaflet
+
+wrapper:
+  version: VERSION
+  js:
+    assets/script.js: {}
+  dependencies:
+    - leaflet_hash/leaflet-hash
