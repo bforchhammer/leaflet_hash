@@ -6,7 +6,7 @@ leaflet-hash:
     url: https://github.com/mlevans/leaflet-hash/blob/master/LICENSE.md
     gpl-compatible: true
   js:
-    /libraries/leaflet-hash/leaflet-hash.js
+    /libraries/leaflet-hash/leaflet-hash.js: {}
   dependencies:
     - leaflet/leaflet
 
