@@ -1,7 +1,8 @@
 (function ($) {
-  $(document).on('leaflet.map', function (e, settings, lMap) {
-    if (settings.plugins.hash) {
-      new L.Hash(lMap);
+  $(document).on('leaflet.features', function (e, initial, leaflet) {
+    console.debug(leaflet);
+    if (initial && leaflet.map_definition.plugins.hash) {
+      new L.Hash(leaflet.lMap);
     }
   });
 })(jQuery);
